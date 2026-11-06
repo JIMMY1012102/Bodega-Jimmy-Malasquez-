@@ -1,0 +1,42 @@
+name: Pruebas PHP y MySQL
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  pruebas:
+    runs-on: ubuntu-latest
+    services:
+      mysql:
+        image: mysql:8.0
+        env:
+          MYSQL_ROOT_PASSWORD: laboratorio_ci
+        ports: ['3306:3306']
+        options: >-
+          --health-cmd="mysqladmin ping -h localhost -plaboratorio_ci"
+          --health-interval=10s --health-timeout=5s --health-retries=10
+    env:
+      TEST_DB_HOST: 127.0.0.1
+      TEST_DB_USER: root
+      TEST_DB_PASS: laboratorio_ci
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          extensions: pdo_mysql, dom, mbstring, xml, xmlwriter
+          tools: phpunit:11
+          coverage: none
+      - name: Revisar sintaxis
+        run: find . -name '*.php' -not -path './vendor/*' -print0 | xargs -0 -n1 php -l
+      - name: Preparar base aislada
+        run: |
+          mysql -h 127.0.0.1 -u root -p"$TEST_DB_PASS" < sql/bodega_test.sql
+          cp config/env_test.ejemplo.php config/env_test.php
+      - name: Ejecutar suite
+        run: phpunit --log-junit /tmp/resultados.xml
+      - name: Conservar resultado
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: resultados-phpunit
+          path: /tmp/resultados.xml

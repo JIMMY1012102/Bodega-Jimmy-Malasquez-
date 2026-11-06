@@ -1,0 +1,4 @@
+Options -Indexes
+<FilesMatch "^(\.|phpunit|D0\.md|requirements\.md|design\.md|prompts\.md|README\.md)">
+    Require all denied
+</FilesMatch>

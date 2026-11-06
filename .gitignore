@@ -1,0 +1,8 @@
+/config/env.php
+/config/env_test.php
+/phpunit.phar
+/.phpunit.cache/
+/vendor/
+*.log
+.env
+.DS_Store
