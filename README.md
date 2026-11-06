@@ -4,7 +4,7 @@ Aplicación de ventas del laboratorio de Desarrollo con IA, semana 11, UNDC. PHP
 
 Repositorio público: https://github.com/JIMMY1012102/Bodega-Jimmy-Malasquez-
 
-**Estado:** implementación y pruebas preparadas. PHPUnit, MySQL, navegador y despliegue aún pendientes de ejecución. Ver [estado de entrega](docs/estado_entrega.md). URL pública: **pendiente**.
+**Estado:** código publicado; 27 pruebas y 42 aserciones aprobadas en GitHub Actions con PHP 8.3.36, PHPUnit 11.5.57 y MySQL 8.0.46. La revisión de sintaxis PHP también pasó. Navegador y despliegue aún pendientes de ejecución. Ver [resultado de CI](docs/resultados_ci.md) y [estado de entrega](docs/estado_entrega.md). URL pública: **pendiente**.
 
 ## Requisitos
 
