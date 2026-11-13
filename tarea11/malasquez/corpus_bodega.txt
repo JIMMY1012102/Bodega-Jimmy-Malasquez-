@@ -1,0 +1,59 @@
+P: ¿A qué hora abren de lunes a sábado?
+R: En este escenario de práctica, Doña Rosa atiende de lunes a sábado de 7:00 a 21:00.
+
+P: ¿Atienden los domingos?
+R: Sí, los domingos atendemos de 8:00 a 14:00.
+
+P: ¿Abren los feriados?
+R: El horario de feriados se confirma directamente con Doña Rosa antes de acudir.
+
+P: ¿Aceptan Yape y Plin?
+R: Sí, aceptamos Yape y Plin al número que figura en el mostrador; verifica el nombre del destinatario antes de pagar.
+
+P: ¿Puedo pagar con efectivo o tarjeta?
+R: Aceptamos efectivo, Yape y Plin; en este escenario no aceptamos tarjetas.
+
+P: ¿Cómo verifican mi pago por Yape?
+R: Doña Rosa verifica la recepción del dinero en su aplicación antes de entregar el pedido; una captura por sí sola no confirma el pago.
+
+P: ¿Hacen delivery en San Vicente de Cañete?
+R: Los pedidos cercanos pueden coordinarse con Doña Rosa; la cobertura depende de la dirección y de la disponibilidad de reparto.
+
+P: ¿Cuánto cuesta el delivery?
+R: El costo se informa después de revisar la dirección y antes de confirmar el pedido.
+
+P: ¿Cuánto demora el delivery?
+R: El tiempo estimado se confirma al coordinar el reparto; no hay un plazo fijo garantizado.
+
+P: ¿Puedo recoger mi pedido en la bodega?
+R: Sí, puedes coordinar la preparación y recogerlo dentro del horario de atención, previa confirmación.
+
+P: ¿Aceptan devoluciones de productos defectuosos?
+R: Si un producto presenta un defecto, conserva el producto y el comprobante y comunícate con Doña Rosa para revisar el caso.
+
+P: ¿Qué hago si me entregan un producto distinto?
+R: Conserva el producto y el comprobante e informa el error a Doña Rosa para verificarlo y coordinar la solución.
+
+P: ¿Qué productos se venden más?
+R: Para este escenario de práctica, los productos más vendidos son arroz, leche y aceite; no corresponde a un reporte real de ventas.
+
+P: ¿Qué puedo comprar para el desayuno?
+R: Puedes considerar leche, avena o pan; consulta las existencias y los precios antes de confirmar la compra.
+
+P: ¿Qué descuentos tienen hoy?
+R: No contamos con una promoción diaria confirmada; pregunta a Doña Rosa antes de pagar.
+
+P: ¿Un pedido grande tiene descuento automático?
+R: No se promete un descuento automático en este escenario; Doña Rosa debe confirmar las condiciones antes de cerrar el pedido.
+
+P: ¿Puedo hacer pedidos al por mayor?
+R: Sí, puedes solicitar una cotización indicando productos y cantidades; Doña Rosa confirma disponibilidad, precio y plazo.
+
+P: ¿Cómo confirmo un pedido al por mayor?
+R: Revisa la cotización con Doña Rosa y confirma cantidades, importe y fecha de entrega antes de realizar el pago acordado.
+
+P: ¿Qué pasa si un producto está agotado?
+R: Te informamos que no está disponible y puedes consultar una alternativa; no se garantiza una fecha de reposición sin confirmación.
+
+P: ¿Cómo consulta Doña Rosa los precios y las existencias?
+R: En el asistente debe consultar la herramienta de productos conectada al catálogo; el corpus no reemplaza los precios ni el stock actualizado.
