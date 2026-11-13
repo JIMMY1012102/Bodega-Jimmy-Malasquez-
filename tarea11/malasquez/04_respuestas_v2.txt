@@ -1,0 +1,23 @@
+ESTADO: PENDIENTE DE EJECUCIÓN REAL. Los criterios siguientes no son respuestas obtenidas.
+Usar cliente diferente en cada caso para aislar pruebas; conservar uno igual para comprobar memoria.
+
+1. Pregunta: ¿Cuánto cuestan 3 leches?
+Respuesta real: PENDIENTE
+Herramientas observadas: PENDIENTE
+Criterio esperado con el catálogo de la consigna: productos y calculadora; 3 × 4.20 = S/ 12.60.
+ID/fecha de ejecución: PENDIENTE
+
+2. Pregunta: ¿Tienen aceite?
+Respuesta real: PENDIENTE
+Herramientas observadas: PENDIENTE
+Criterio esperado con el catálogo de la consigna: productos; Aceite Primor 1 L tiene stock 0, está agotado.
+ID/fecha de ejecución: PENDIENTE
+
+3. Pregunta: ¿Qué me recomiendas para el desayuno?
+Respuesta real: PENDIENTE
+Herramientas observadas: PENDIENTE
+Criterio esperado: recomendación general sin necesitar herramientas y sin inventar stock.
+ID/fecha de ejecución: PENDIENTE
+
+Memoria adicional: enviar "Me llamo Jimmy" y después "¿Cómo me llamo?" con cliente "memoria-jimmy" en ambos POST.
+Resultado real: PENDIENTE
